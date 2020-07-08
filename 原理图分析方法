@@ -11,4 +11,6 @@
 2.1UART universal ansyc receive transmit
 2.2IIC
 3.SPI
+4.NAND
+5.LCD
 
