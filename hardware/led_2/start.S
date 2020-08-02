@@ -1,3 +1,4 @@
+.extern     main
 .text
 
 .global _start

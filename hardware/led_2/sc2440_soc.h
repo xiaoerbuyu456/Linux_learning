@@ -64,20 +64,20 @@
 
 /*clock registers*/
 #define	LOCKTIME		(*(volatile unsigned long *)0x4c000000)
-#define	MPLLCON		(*(volatile unsigned long *)0x4c000004)
-#define	UPLLCON		(*(volatile unsigned long *)0x4c000008)
-#define	CLKCON		(*(volatile unsigned long *)0x4c00000c)
-#define	CLKSLOW		(*(volatile unsigned long *)0x4c000010)
-#define	CLKDIVN		(*(volatile unsigned long *)0x4c000014)
+#define	MPLLCON		    (*(volatile unsigned long *)0x4c000004)
+#define	UPLLCON		    (*(volatile unsigned long *)0x4c000008)
+#define	CLKCON		    (*(volatile unsigned long *)0x4c00000c)
+#define	CLKSLOW		    (*(volatile unsigned long *)0x4c000010)
+#define	CLKDIVN		    (*(volatile unsigned long *)0x4c000014)
 
 
 /*PWM & Timer registers*/
-#define	TCFG0		(*(volatile unsigned long *)0x51000000)
-#define	TCFG1		(*(volatile unsigned long *)0x51000004)
-#define	TCON		(*(volatile unsigned long *)0x51000008)
-#define	TCNTB0		(*(volatile unsigned long *)0x5100000c)
-#define	TCMPB0		(*(volatile unsigned long *)0x51000010)
-#define	TCNTO0		(*(volatile unsigned long *)0x51000014)
+#define	TCFG0	    	(*(volatile unsigned long *)0x51000000)
+#define	TCFG1	    	(*(volatile unsigned long *)0x51000004)
+#define	TCON	    	(*(volatile unsigned long *)0x51000008)
+#define	TCNTB0	    	(*(volatile unsigned long *)0x5100000c)
+#define	TCMPB0	    	(*(volatile unsigned long *)0x51000010)
+#define	TCNTO0	    	(*(volatile unsigned long *)0x51000014)
 
-#define GSTATUS1    (*(volatile unsigned long *)0x560000B0)
+#define GSTATUS1          (*(volatile unsigned long *)0x560000B0)
 
